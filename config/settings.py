@@ -38,7 +38,9 @@ ALLOWED_HOSTS = [
     #'localhost',
     #'127.0.0.1'
     #'url'
+    
 ]
+ALLOWED_HOSTS = env.list('ALLOWED_HOSTS', default=['livesportstracker.onrender.com'])
 
 
 # Application definition
